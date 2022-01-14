@@ -24,6 +24,9 @@ function addRoom(){
             localStorage.setItem("room_name", room_name);
             window.location = "kwitter_page.html";
       }
+      else {
+            document.getElementById("room_name").value = "";
+      }
 }
 
 function getData() {firebase.database().ref("/").on('value', function(snapshot) {document.getElementById("output").innerHTML = "";snapshot.forEach(function(childSnapshot) {childKey  = childSnapshot.key;
