@@ -2,6 +2,7 @@ html, body
 {
   height: 100%;
   margin: 0;
+  overflow-y: auto;
 }
 
 body
@@ -61,9 +62,10 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 
 #logout
 {
-	font-size: 20px; float: right; margin-left: 100px;
+	font-size: 20px; float: right; margin-left: 10%;
 	background-color: #da2b25;
 	border: 1px #AC2925 solid;
+	display: inline-block;
 }
 
 #logout:hover{
@@ -72,7 +74,7 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 
 #back
 {
-	font-size: 20px; float: left; margin-right: 100px;
+	font-size: 20px; float: left; margin-right: 10%;
 	background-color: #e4a143;
   	border: 1px #EEA236 solid;
 }
